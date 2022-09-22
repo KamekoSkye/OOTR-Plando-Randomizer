@@ -28,7 +28,7 @@ def getPlando(c):
 
 # Command to write the json file
 def printPlando(item, location, base, name):
-    if name == "" or name == base:
+    if name == "" or name == base or name == "data":
         name = base + " randomized"
     json_file = json.dumps(item, indent=4)
     outfile = open(location + "/" + name + ".json", "w+")

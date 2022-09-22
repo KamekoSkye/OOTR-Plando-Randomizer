@@ -203,7 +203,7 @@ locNum is a dictionary with the number of options in each list"""
 
         
         # cleans up for the next iteration
-        if locRando[locSelect] >0:
+        if locNum[locSelect] > 0:
             for j in locRando:
                 if select in bgm[j]:
                     locNum[j] = locNum[j] - 1
