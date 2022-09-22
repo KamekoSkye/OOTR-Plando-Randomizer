@@ -32,7 +32,7 @@ The program will assign each location its option based on the internal order tha
 The program works in a smart manner - it'll take the smallest sized list and assign the song to it first, reducing the size of each other list by 1 if it contained the chosen song. This allows for potentially the most number of unique songs if that is what you are after.
 
 ## How to use this program
-1) Download all the python files to an accessible location on your computer. Please make sure that whatever folder you download the files into, that `data.json` does not exist.
+1) Download all the python files to an accessible location on your computer. Please make sure that whatever folder you download the files into, that `data.json` does not exist. Alternatively, head to the releases tab and download the latest .zip file
 2) Create your cosmetics plandomizer file. This can be done with a program, or by taking an older cosmetics spoiler and adding a list (done by, next to an option you want multiple options, putting square brackets around each song separated by a comma) as the option. PLEASE REMEMBER THE LIST NEEDS TO BE FOLLOWED BY A COMMA.
 3) Load up `gui.py` and, using the interface, select the original plandomizer file.
 4) After selecting the options present, hit `Generate File` and it'll create a new .json file for you to use as your cosmetics plandomizer file.
